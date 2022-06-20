@@ -1,8 +1,9 @@
-#include <float.h>
-#include <math.h>
 
-//  #ifndef SRC_S21_MATH_H_
+
+#ifndef SRC_S21_MATH_H_
 #define SRC_S21_MATH_H_
+
+#include <float.h>
 
 #ifndef S21_PI
 #define S21_PI 3.14159265358979323846264338327950288
@@ -42,4 +43,4 @@ long double s21_sin(double x);
 long double s21_sqrt(double x);
 long double s21_tan(double x);
 
-//  #endif  //  SRC_S21_MATH_H_
+#endif  //  SRC_S21_MATH_H_

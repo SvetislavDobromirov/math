@@ -3,7 +3,7 @@
 long double s21_fmod(double x, double y) {
   long double answ;
   if (x - x != 0 || y == 0 || y != y) {
-    answ = NAN;
+    answ = S21_NAN;
   } else if (y - y != 0) {
     answ = x;
   } else {

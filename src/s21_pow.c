@@ -1,5 +1,4 @@
 #include "s21_math.h"
-#include <stdio.h>
 
 long double s21_pow(double base, double exp) {
   long double answ = 0;

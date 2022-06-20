@@ -70,32 +70,32 @@ START_TEST(tan_11) { ck_assert_double_eq_tol(s21_tan(0.0), tanl(0.0), 1e-06); }
 END_TEST
 
 START_TEST(tan_12) {
-  ck_assert_double_eq_tol(s21_tan(M_PI / 6), tanl(M_PI / 6), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(S21_PI / 6), tanl(S21_PI / 6), 1e-06);
 }
 END_TEST
 
 START_TEST(tan_13) {
-  ck_assert_double_eq_tol(s21_tan(M_PI / 4), tanl(M_PI / 4), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(S21_PI / 4), tanl(S21_PI / 4), 1e-06);
 }
 END_TEST
 
 START_TEST(tan_14) {
-  ck_assert_double_eq_tol(s21_tan(-2 * M_PI), tanl(-2 * M_PI), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(-2 * S21_PI), tanl(-2 * S21_PI), 1e-06);
 }
 END_TEST
 
 START_TEST(tan_15) {
-  ck_assert_double_eq_tol(s21_tan(M_PI), tanl(M_PI), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(S21_PI), tanl(S21_PI), 1e-06);
 }
 END_TEST
 
 START_TEST(tan_16) {
-  ck_assert_double_eq_tol(s21_tan(M_PI / 3), tanl(M_PI / 3), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(S21_PI / 3), tanl(S21_PI / 3), 1e-06);
 }
 END_TEST
 
 START_TEST(tan_17) {
-  ck_assert_double_eq_tol(s21_tan(3 * M_PI / 3), tanl(3 * M_PI / 3), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(3 * S21_PI / 3), tanl(3 * S21_PI / 3), 1e-06);
 }
 END_TEST
 
@@ -122,7 +122,7 @@ START_TEST(tan_21) {
 END_TEST
 
 START_TEST(tan_22) {
-      ck_assert_double_eq_tol(s21_tan(2 * S21_PI / 2), tanl(2 * S21_PI / 2), 1e-06);
+  ck_assert_double_eq_tol(s21_tan(2 * S21_PI / 2), tanl(2 * S21_PI / 2), 1e-06);
 }
 END_TEST
 

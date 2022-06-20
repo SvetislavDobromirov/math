@@ -88,32 +88,32 @@ START_TEST(cos_13) { ck_assert_double_eq_tol(s21_cos(0.0), cosl(0.0), 1e-06); }
 END_TEST
 
 START_TEST(cos_14) {
-  ck_assert_double_eq_tol(s21_cos(M_PI / 4), cosl(M_PI / 4), 1e-06);
+  ck_assert_double_eq_tol(s21_cos(S21_PI / 4), cosl(S21_PI / 4), 1e-06);
 }
 END_TEST
 
 START_TEST(cos_15) {
-  ck_assert_double_eq_tol(s21_cos(M_PI / 6), cosl(M_PI / 6), 1e-06);
+  ck_assert_double_eq_tol(s21_cos(S21_PI / 6), cosl(S21_PI / 6), 1e-06);
 }
 END_TEST
 
 START_TEST(cos_16) {
-  ck_assert_double_eq_tol(s21_cos(M_PI / 3), cosl(M_PI / 3), 1e-06);
+  ck_assert_double_eq_tol(s21_cos(S21_PI / 3), cosl(S21_PI / 3), 1e-06);
 }
 END_TEST
 
 START_TEST(cos_17) {
-  ck_assert_double_eq_tol(s21_cos(M_PI / 2), cosl(M_PI / 2), 1e-06);
+  ck_assert_double_eq_tol(s21_cos(S21_PI / 2), cosl(S21_PI / 2), 1e-06);
 }
 END_TEST
 
 START_TEST(cos_18) {
-  ck_assert_double_eq_tol(s21_cos(3 * M_PI / 2), cosl(3 * M_PI / 2), 1e-06);
+  ck_assert_double_eq_tol(s21_cos(3 * S21_PI / 2), cosl(3 * S21_PI / 2), 1e-06);
 }
 END_TEST
 
 START_TEST(cos_19) {
-  ck_assert_double_eq_tol(s21_cos(2 * M_PI), cosl(2 * M_PI), 1e-06);
+  ck_assert_double_eq_tol(s21_cos(2 * S21_PI), cosl(2 * S21_PI), 1e-06);
 }
 END_TEST
 

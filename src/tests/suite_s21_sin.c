@@ -103,42 +103,42 @@ START_TEST(sin_14) { ck_assert_double_eq_tol(s21_sin(0.0), sin(0.0), 1e-06); }
 END_TEST
 
 START_TEST(sin_15) {
-  ck_assert_double_eq_tol(s21_sin(M_PI / 6), sin(M_PI / 6), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(S21_PI / 6), sin(S21_PI / 6), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_16) {
-  ck_assert_double_eq_tol(s21_sin(M_PI / 4), sin(M_PI / 4), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(S21_PI / 4), sin(S21_PI / 4), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_17) {
-  ck_assert_double_eq_tol(s21_sin(M_PI / 3), sin(M_PI / 3), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(S21_PI / 3), sin(S21_PI / 3), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_18) {
-  ck_assert_double_eq_tol(s21_sin(M_PI / 2), sin(M_PI / 2), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(S21_PI / 2), sin(S21_PI / 2), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_19) {
-  ck_assert_double_eq_tol(s21_sin(3 * M_PI / 2), sin(3 * M_PI / 2), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(3 * S21_PI / 2), sin(3 * S21_PI / 2), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_20) {
-  ck_assert_double_eq_tol(s21_sin(2 * M_PI), sin(2 * M_PI), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(2 * S21_PI), sin(2 * S21_PI), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_21) {
-  ck_assert_double_eq_tol(s21_sin(-2 * M_PI), sin(-2 * M_PI), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(-2 * S21_PI), sin(-2 * S21_PI), 1e-06);
 }
 END_TEST
 
 START_TEST(sin_22) {
-  ck_assert_double_eq_tol(s21_sin(-3 * M_PI), sin(-3 * M_PI), 1e-06);
+  ck_assert_double_eq_tol(s21_sin(-3 * S21_PI), sin(-3 * S21_PI), 1e-06);
 }
 END_TEST
 

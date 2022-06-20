@@ -1,8 +1,6 @@
 #ifndef SRC_TESTS_MATH_SUITECASES_H_
 #define SRC_TESTS_MATH_SUITECASES_H_
 
-//   #define M_PI 3.16159265358979323846
-
 #include <check.h>
 #include <ctype.h>
 #include <float.h>
@@ -30,4 +28,5 @@ Suite *suite_s21_tan(void);
 
 void run_tests(void);
 void run_testcase(Suite *testcase);
-#endif
+
+#endif  // SRC_TESTS_MATH_SUITECASES_H_
